@@ -1,122 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato|Roboto" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/github.css">
-  </head>
+  <link rel="stylesheet" href="font-awesome/css/fontawesome.css">
+</head>
 
 <body>
-  
-<h1>AboutMe</h1>
+<div class="cp_tab">
+    <input type="radio"  name="cp_tab" id="tab1_1" aria-controls="first_tab01" checked>
+    <label for="tab1_1">About Me</label>
+    <input type="radio"  name="cp_tab" id="tab1_2" aria-controls="second_tab01" checked>
+    <label for="tab1_2">Works</label>
+    <input type="radio"  name="cp_tab" id="tab1_3" aria-controls="third_tab01" checked>
+    <label for="tab1_3">Links</label>
+    <div class="cp_tabpanels">
+      <div id="first_tab01" class="cp_tabpanel">
+          <h2>Personal Information</h2>
+          <ul>
+            <li>Name: Sou Hasegawa</li>
+            <li>Age: 25</li>
+          </ul>
+          <h2>Background</h2>
+          <ul>
+            <li>2012 ~ 2016: Faculty of Electrical and Electronic Engineering at Kyoto University</li>
+            <li>2016 ~ 2018: Master course of Electronic Engineering at Kyoto University<ul>
+            <li>The study of solar cells using photonic crystals</li>
+          </ul>
+          <li>2018 ~: Software Engineer at FUJITSU<ul>
+          <li>Woking on software development using machine learning</li>
+          </ul>
+          </li>
+          </ul>
+          
+          <h2>Skills</h2>
+          <ul>
+          <li>Programming Language<ul>
+          <li>Mainly Python and C. Secondary, Rust and Haskell</li>
+          </ul>
+          </li>
+          <li>Computer Vision<ul>
+          <li>Image generation, Style transfer, Colorization</li>
+          </ul>
+          </li>
+          <li>Speech Processing<ul>
+          <li>Voice conversion, Speech Synthesis, Denoising</li>
+          </ul>
+          </li>
+          <li>Other tools<ul>
+          <li>Git, Docker</li>
+          </ul>
+          </li>
+          </ul>
+          
+          <h2>Hobby</h2>
+          <ul>
+          <li>Music<ul>
+            <li>Listening to instrumental or soundtrack</li>
+            <li>Playing the piano and guitar</li>
+            <li>Composing instrumental tracks using Cubase. <a href="https://soundcloud.com/lento-3">Tracks</a></li>
+          </ul>
+          </li>
+            <li>Games<ul>
+            <li>STG (Radiant Silvergun, Ikaruga, DARIUS, etc...)</li>
+            <li>Action (Demon&#39;s Souls, Dark Souls, Bloodborne, etc...)</li>
+            <li>ADV (YU-NO, Ever17, Subarashiki Hibi, etc...)</li>
+          </ul>
+          </li>
+            <li>Anime<ul>
+            <li>serial experiments lain, Haibane Renmei, Saenai Heroine no Sodatekata, etc...</li>
+          </ul>
+          </li>
+          </ul>
+      </div>
+      <div id="second_tab01" class="cp_tabpanel">
+          <h2><a href="https://github.com/SerialLain3170/Illustration-Generator">Illustration Generation</a></h2>
+          <ul>
+          <li>Mainly using GANs. From face generation to full-body generation</li>
+          </ul>
+          <p><img src="./img/ig.png" alt="ig"></p>
 
-<h2>Personal Information</h2>
-<ul>
-<li>Name: Sou Hasegawa</li>
-  <li>Age: 25
-  </li>
-  </ul>
-<h2>Background</h2>
+          <h2><a href="https://github.com/SerialLain3170/Style-Transfer">Style Transfer</a></h2>
 
-<ul>
-<li>2012 ~ 2016: Faculty of Electrical and Electronic Engineering at Kyoto University</li>
-<li>2016 ~ 2018: Master course of Electronic Engineering at Kyoto University<ul>
-<li>The study of solar cells using photonic crystals</li>
-</ul>
-</li>
-<li>2018 ~: Software Engineer at FUJITSU<ul>
-<li>Woking on software development using machine learning</li>
-</ul>
-</li>
-</ul>
+          <ul>
+          <li>AdaIN, CycleGAN, StarGAN, InstaGAN, etc...</li>
+          </ul>
+          <p><img src="./img/st.png" alt="ig"></p>
 
-<h2>Skills</h2>
+          <h2><a href="https://github.com/SerialLain3170/Line-to-Color">Colorization</a></h2>
 
-<ul>
-<li>Programming Language<ul>
-<li>Mainly Python and C. Secondary, Rust and Haskell</li>
-</ul>
-</li>
-<li>Computer Vision<ul>
-<li>Image generation, Style transfer, Colorization</li>
-</ul>
-</li>
-<li>Speech Processing<ul>
-<li>Voice conversion, Speech Synthesis, Denoising</li>
-</ul>
-</li>
-<li>Other tools<ul>
-<li>Git, Docker</li>
-</ul>
-</li>
-</ul>
+          <ul>
+          <li>pix2pix, pix2pixHD, etc...</li>
+          </ul>
+          <p><img src="./img/co.png" alt="ig"></p>
 
-<h2>Hobby</h2>
+          <h2><a href="https://github.com/SerialLain3170/Image-Enhancement">Super Resolution</a></h2>
 
-<ul>
-<li>Music<ul>
-<li>Listening to instrumental or soundtrack</li>
-<li>Playing the piano and guitar</li>
-<li>Composing instrumental tracks using Cubase. <a href="https://soundcloud.com/lento-3">Tracks</a></li>
-</ul>
-</li>
-<li>Games<ul>
-<li>STG (Radiant Silvergun, Ikaruga, DARIUS, etc...)</li>
-<li>Action (Demon&#39;s Souls, Dark Souls, Bloodborne, etc...)</li>
-<li>ADV (YU-NO, Ever17, Subarashiki Hibi, etc...)</li>
-</ul>
-</li>
-<li>Anime<ul>
-<li>serial experiments lain, Haibane Renmei, Saenai Heroine no Sodatekata, etc...</li>
-</ul>
-</li>
-</ul>
+          <ul>
+          <li>SRGAN, ESRGAN, etc...</li>
+          </ul>
+          <p><img src="./img/sr.png" alt="ig"></p>
 
-<h1>Works</h1>
+          <h2><a href="https://github.com/SerialLain3170/VideoProcessing">Video Processing</a></h2>
 
-
-<h2><a href="https://github.com/SerialLain3170/Illustration-Generator">Illustration Generation</a></h2>
-
-<ul>
-<li>Mainly using GANs. From face generation to full-body generation</li>
-</ul>
-<p><img src="./img/ig.png" alt="ig"></p>
-
-<h2><a href="https://github.com/SerialLain3170/Style-Transfer">Style Transfer</a></h2>
-
-<ul>
-<li>AdaIN, CycleGAN, StarGAN, InstaGAN, etc...</li>
-</ul>
-<p><img src="./img/st.png" alt="ig"></p>
-
-<h2><a href="https://github.com/SerialLain3170/Line-to-Color">Colorization</a></h2>
-
-<ul>
-<li>pix2pix, pix2pixHD, etc...</li>
-</ul>
-<p><img src="./img/co.png" alt="ig"></p>
-
-<h2><a href="https://github.com/SerialLain3170/Image-Enhancement">Super Resolution</a></h2>
-
-<ul>
-<li>SRGAN, ESRGAN, etc...</li>
-</ul>
-<p><img src="./img/sr.png" alt="ig"></p>
-
-<h2><a href="https://github.com/SerialLain3170/VideoProcessing">Video Processing</a></h2>
-
-<ul>
-<li>RecycleGAN, Add blink to single image, etc...</li>
-</ul>
-<p><img src="./img/blink.gif" alt="ig"></p>
-
-<h1>Links</h1>
-
-<ul>
-<li><a href="https://twitter.com/niea7_3170">Twitter</a></li>
-<li><a href="https://github.com/SerialLain3170">Github</a></li>
-<li><a href="https://medium.com/@crosssceneofwindff">Blog</a></li>
-<li><a href="https://soundcloud.com/lento-3">Soundcloud</a></li>
-</ul>
-
-    </body>
+          <ul>
+          <li>RecycleGAN, Add blink to single image, etc...</li>
+          </ul>
+          <p><img src="./img/blink.gif" alt="ig"></p>
+      </div>
+      <div id="third_tab01" class="cp_tabpanel">
+          <ul>
+            <div class="icon">
+            <a href="https://twitter.com/niea7_3170">
+              <i class="fab fa-github"></i>
+              Twitter</a>
+            </div>
+            <li><a href="https://github.com/SerialLain3170">Github</a></li>
+            <li><a href="https://medium.com/@crosssceneofwindff">Blog</a></li>
+            <li><a href="https://soundcloud.com/lento-3">Soundcloud</a></li>
+          </ul>
+      </div>
+    </div>
+</div>
+</body>
 </html>
