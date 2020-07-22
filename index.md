@@ -39,7 +39,7 @@ I love computer vision and speech processing!
   
 - Computer Vision
   - Image generation: GAN, Flow-based generative models, VAE
-  - Style transfer: Neural style transfer(AdaIN etc.) and image-to-image translation(CycleGAN etc.)</li>
+  - Style transfer: Neural style transfer(AdaIN etc.) and image-to-image translation(CycleGAN etc.)
   - Automatic line art colorization
   - Super resolution: SRGAN, ESRGAN
   - VIdeo processing: Video generation, video style transfer, animating single image
