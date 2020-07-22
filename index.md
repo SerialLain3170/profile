@@ -4,9 +4,9 @@ title: serial experiments lento
 ---
 
 
-### Present Day, Present Time...
-### Hello, I'm software engineer and machine learning engineer.
-### I love computer vision and speech processing!
+Present Day, Present Time...  
+Hello, I'm software engineer and machine learning engineer.  
+I love computer vision and speech processing!  
 
 
 ## Personal Information
