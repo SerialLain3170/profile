@@ -15,7 +15,7 @@ I love computer vision and speech processing!
 
 ## Background
 - 2018 ~ : software engineer at Fujitsu
-  - I have mainly two jobs. First, I work on developing software products. I have developed the deep learing modules in the product. Second, I work on resolving customers' problems relating machine learning. I have worked on the problems of speech enhancement, speaker diarization and object detection.</li>
+  - I have mainly two jobs. First, I work on developing software products. I have developed the deep learing modules in the product. Second, I work on resolving customers' problems relating machine learning. I have worked on the problems of speech enhancement, speaker diarization and object detection.
   - Besides my work, I do experiments on automatic character generation as my hobby. Please visit my blog because I have written about the results of some experiments.
 
 - 2016~2018 : MEng in Electronics at Kyoto University
